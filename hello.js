@@ -86,9 +86,9 @@ function randomIntFromInterval(min, max) { // min and max included
   
   function main(){
 	  var planet = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies"
-	  var planet_1 = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies&cp=33621689";
-	  var planet_2 = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies&cp=33622404";
-	  var planet_2_expe = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=fleetdispatch&mission=15&position=16&type=1&galaxy=6&system=200&type=1";
+	  var planet_1 = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies&cp=33621714";
+	  var planet_2 = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies&cp=33623111";
+	  var planet_2_expe = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=fleetdispatch&mission=15&position=16&type=1&galaxy=6&system=199&type=1";
 	  var planet_3 = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies&cp=33622556";
 	  var planet_4 = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies&cp=33623289";
 	  var bug = "https://s183-us.ogame.gameforge.com/game/index.php?page=ingame&component=supplies&modus=1&token=3e6303311a43630576ab31c19a5d99f3&type=4&menge=1";
@@ -122,7 +122,7 @@ function randomIntFromInterval(min, max) { // min and max included
 			  break;		
 	  }
   
-	  const rand = randomIntFromInterval(1,4);
+	  const rand = randomIntFromInterval(1,2);
 	  console.log(window.location.href);
   
 	  // GO 
